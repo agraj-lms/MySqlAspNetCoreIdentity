@@ -14,7 +14,7 @@ namespace MySqlIdentity
         {
             if (!optionsBuilder.IsConfigured)
             {
-                var connectionString = "server=localhost;user=root;password=toor;database=cinemass";
+                var connectionString = "server=localhost;user=root;password=toor;database=identity";
 
                 optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
             }

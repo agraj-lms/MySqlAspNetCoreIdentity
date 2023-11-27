@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 // Replace with your connection string.
-var connectionString = "server=localhost;user=root;password=toor;database=cinemass";
+var connectionString = "server=localhost;user=root;password=toor;database=identity";
 
 // Replace 'YourDbContext' with the name of your own DbContext derived class.
 builder.Services.AddDbContext<ApplicationDBContext>(
